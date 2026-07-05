@@ -1,4 +1,4 @@
-# 🔬 AI Research Paper Intelligence System
+# AI Research Paper Intelligence System
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![NLP](https://img.shields.io/badge/NLP-SentenceTransformers-green)
