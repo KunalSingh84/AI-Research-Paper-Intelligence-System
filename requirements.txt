@@ -1,0 +1,32 @@
+# ============================================
+# AI Research Paper Intelligence System
+# Requirements File
+# ============================================
+
+# Step 1 - Data Loading
+datasets                    # Load ArXiv ML papers dataset from HuggingFace
+
+# Step 2 - Data Manipulation
+pandas                      # Data handling and dataframes
+numpy                       # Numerical operations
+
+# Step 3 - Text Embeddings
+sentence-transformers       # Convert papers to vector embeddings using all-MiniLM-L6-v2
+
+# Step 4 - Similarity Search
+faiss-cpu                   # Fast similarity search across 15000 paper embeddings
+
+# Step 5 - Machine Learning
+scikit-learn                # Cosine similarity calculations
+
+# Step 6 - Summarization
+transformers==4.46.3        # BART model for automatic paper summarization
+torch                       # Required backend for transformers
+
+# Step 7 - Keyword Extraction
+keybert==0.8.5              # Extract important keywords from paper abstracts
+
+# ============================================
+# Install all at once using:
+# pip install -r requirements.txt
+# ============================================
